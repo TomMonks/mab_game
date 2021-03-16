@@ -68,7 +68,7 @@ def connect_buttons(ui, agent):
     ui.pull_arm4_2.clicked.connect(agent.pull_bandit5)
 
 
-def experiment():
+def human_game():
     '''
     simple example experiment of the MAB
     '''
@@ -240,5 +240,5 @@ def monkeypatch_ui():
 
 if __name__ == "__main__":
  
-    experiment()
+    human_game()
    
